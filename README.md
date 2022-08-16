@@ -1,7 +1,7 @@
 # extension-marker
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-marker.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-marker)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-marker.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/extension-marker.svg)](https://www.npmjs.com/package/@tiptap/extension-marker)
+[![Version](https://img.shields.io/npm/v/@yaskevich/extension-marker.svg?label=version)](https://www.npmjs.com/package/@yaskevich/extension-marker)
+[![Downloads](https://img.shields.io/npm/dm/@yaskevich/extension-marker.svg)](https://www.npmjs.com/package/@yaskevich/extension-marker)
+[![License](https://img.shields.io/npm/l/@yaskevich/extension-marker.svg)](https://www.npmjs.com/package/@yaskevich/extension-marker)
 
 Tiptap extension for setting custom class of the [mark](https://tiptap.dev/api/marks).
 
