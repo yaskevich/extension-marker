@@ -1,0 +1,32 @@
+{
+  "name": "@yaskevich/extension-marker",
+  "version": "1.0.0",
+  "description": "Marker extension for Tiptap",
+  "author": "Alyaxey Yaskevich",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "tiptap",
+    "tiptap extension"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yaskevich/extension-marker.git"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.0.0-beta.1"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  }
+}
