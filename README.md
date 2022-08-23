@@ -28,11 +28,13 @@ Example: `['Mod-q']` will set Ctrl+Q shortcut for first item.
 
 If you would like to omit shortcut for an item, but set it for next one in list, put there an empty string.
 
-####  exclusive
+####  excludes
 
-Boolean value defining whether setting this mark excludes assigning other marks to the same node. 
+This option works in the same manner, as it is described in [Schema](https://tiptap.dev/api/schema#excludes) documentation. 
 
-Default: `false`
+`'_'` excludes all other marks, `'bold'` excludes only Bold mark.
+
+Default: `marker` (excludes setting itself more than once).
 
 #### tag
 

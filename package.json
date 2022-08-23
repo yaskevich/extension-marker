@@ -1,6 +1,6 @@
 {
   "name": "@yaskevich/extension-marker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Marker extension for Tiptap",
   "author": "Alyaxey Yaskevich",
   "main": "dist/index.js",

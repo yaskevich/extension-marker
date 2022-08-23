@@ -9,7 +9,7 @@ export interface MarkerOptions {
   HTMLAttributes: Record<string, any>,
   classes: Array<string>,
   tag: string,
-  exclusive: boolean,
+  excludes: string,
   shortcuts: Array<string>,
 }
 
@@ -38,15 +38,11 @@ declare module '@tiptap/core' {
 export const Marker = Mark.create<MarkerOptions>({
   name: 'marker',
 
-  excludes() {
-    return this.options.exclusive ? '_' : '';
-  },
-
   addOptions() {
     return {
       tag: 'span',
       classes: [''],
-      exclusive: false,
+      excludes: 'marker',
       HTMLAttributes: {},
       shortcuts: []
     }
